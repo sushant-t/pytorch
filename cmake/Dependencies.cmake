@@ -1038,7 +1038,7 @@ if(BUILD_PYTHON)
     endif()
 
     add_library(python::python INTERFACE IMPORTED)
-    target_link_libraries(python::python INTERFACE Python::Module)
+    target_link_libraries(python::python INTERFACE Python::Module Python::Python)
 
     if(Python_NumPy_FOUND)
       caffe2_update_option(USE_NUMPY ON)

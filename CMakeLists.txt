@@ -1104,7 +1104,6 @@ if(BUILD_SHARED_LIBS)
       ${PROJECT_SOURCE_DIR}/cmake/public/mkl.cmake
       ${PROJECT_SOURCE_DIR}/cmake/public/mkldnn.cmake
       ${PROJECT_SOURCE_DIR}/cmake/public/protobuf.cmake
-      ${PROJECT_SOURCE_DIR}/cmake/public/threads.cmake
       ${PROJECT_SOURCE_DIR}/cmake/public/utils.cmake
       ${PROJECT_SOURCE_DIR}/cmake/public/LoadHIP.cmake
       DESTINATION share/cmake/Caffe2/public

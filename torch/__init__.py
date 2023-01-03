@@ -1081,6 +1081,7 @@ from torch.autograd import (
 )
 from torch import fft as fft
 from torch import futures as futures
+from torch import awaits as awaits
 from torch import nested as nested
 from torch import nn as nn
 from torch.signal import windows as windows
